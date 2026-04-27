@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20260427175704636I41">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Problemas | Equilibrio ácido-base</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node daddy">Introducción</a><ul class="other-section"> <li> <a href="../html/fundamentos-acido-base.html" class="no-ch">Fundamentos ácido-base</a>
+</li>
+<li> <a href="../html/fuerza-acido-base.html" class="no-ch">Fuerza ácido base</a>
+</li>
+<li> <a href="../html/autoionizacion-del-agua-kw-ph-y-poh.html" class="no-ch">Autoionización del agua, Kw, pH y pOH</a>
+</li>
+<li> <a href="../html/calculo-de-ph-en-acidos-y-bases-debiles.html" class="no-ch">Cálculo de pH en ácidos y bases débiles</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/apuntes-interactivos.html" class="no-ch">Apuntes interactivos</a>
+</li>
+<li> <a href="../html/curvas-de-valoracion-acido-base.html" class="no-ch">Curvas de valoración ácido-base</a>
+</li>
+<li> <a href="../html/problemas-guiados.html" class="no-ch">Problemas guiados</a>
+</li>
+<li class="active"> <a href="../html/problemas.html" class="active no-ch">Problemas</a>
+</li>
+</ul></nav><main id="20260427175704636I41" class="page"> <header id="header-20260427175704636I41" class="main-header"> <div class="package-header"><h1 class="package-title">Equilibrio ácido-base</h1></div>
+<div class="page-header"><h2 class="page-title">Problemas</h2></div></header><div id="page-content-20260427175704636I41" class="page-content"> <article id="20260427175713531DU8" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Problemas autocorregibles</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202604271757135286F2" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div id="quiz-acido-base" style="font-family: Arial, sans-serif; line-height: 1.6; background: #f8fafc; border: 1px solid #dbeafe; border-radius: 18px; padding: 22px;">
+<h2 style="color: #1d4ed8; margin-top: 0;">Ejercicios autocorregibles: equilibrio ácido-base</h2>
+<p>Responde a las siguientes preguntas. Cuando pulses una opción, recibirás una explicación inmediata.</p>
+<div id="questions"></div>
+<button onclick="reiniciarQuizAcidoBase()" style="margin-top: 18px; background: #2563eb; color: white; border: none; padding: 12px 18px; border-radius: 12px; font-weight: bold; cursor: pointer;"> Reiniciar actividad </button>
+<p id="resultado-final" style="font-weight: bold; font-size: 18px; margin-top: 16px;"></p>
+</div>
+<p>
+<script>
+const preguntasAcidoBase = [
+  {
+    enunciado: "1. En una neutralización completa debe cumplirse que:",
+    opciones: [
+      "Los moles de ácido sean siempre iguales a los moles de base.",
+      "Los moles de H⁺ sean iguales a los moles de OH⁻.",
+      "El pH final sea siempre 7.",
+      "La concentración del ácido y de la base sea la misma."
+    ],
+    correcta: 1,
+    explicacion: "Correcto. En una neutralización completa se igualan los moles de H⁺ y los moles de OH⁻. No siempre coinciden los moles de ácido y base, porque algunos ácidos liberan más de un H⁺ y algunas bases aportan más de un OH⁻."
+  },
+  {
+    enunciado: "2. ¿Cuántos moles de OH⁻ aporta 1 mol de Ca(OH)₂?",
+    opciones: [
+      "1 mol de OH⁻",
+      "2 moles de OH⁻",
+      "3 moles de OH⁻",
+      "No aporta OH⁻"
+    ],
+    correcta: 1,
+    explicacion: "Correcto. Cada mol de Ca(OH)₂ aporta 2 moles de OH⁻, porque en su fórmula hay dos grupos hidróxido."
+  },
+  {
+    enunciado: "3. ¿Qué volumen de NaOH 0,20 M neutraliza 50 mL de HCl 0,10 M?",
+    opciones: [
+      "10 mL",
+      "25 mL",
+      "50 mL",
+      "100 mL"
+    ],
+    correcta: 1,
+    explicacion: "Correcto. Moles de HCl = 0,10 · 0,050 = 0,005 mol. Como HCl y NaOH reaccionan 1:1, hacen falta 0,005 mol de NaOH. V = 0,005 / 0,20 = 0,025 L = 25 mL."
+  },
+  {
+  enunciado: "4. Una sal como NaCl o KNO₃, formada por el anión de un ácido fuerte y el catión de una base fuerte, dará una disolución:",
+  opciones: [
+    "Ácida",
+    "Básica",
+    "Neutra",
+    "Siempre tampón"
+  ],
+  correcta: 2,
+  explicacion: "Correcto. Sales como NaCl o KNO₃ contienen iones como Na⁺, K⁺, Cl⁻ o NO₃⁻, que no hidrolizan apreciablemente en agua. Por eso la disolución será aproximadamente neutra."
+},
+  {
+    enunciado: "5. El CH₃COONa dará una disolución:",
+    opciones: [
+      "Ácida",
+      "Básica",
+      "Neutra",
+      "De pH siempre igual a 7"
+    ],
+    correcta: 1,
+    explicacion: "Correcto. El CH₃COONa procede de ácido acético, que es débil, y NaOH, que es fuerte. El ion acetato reacciona con el agua formando OH⁻, por eso la disolución es básica."
+  },
+  {
+    enunciado: "6. El NH₄Cl dará una disolución:",
+    opciones: [
+      "Ácida",
+      "Básica",
+      "Neutra",
+      "No se puede saber nunca"
+    ],
+    correcta: 0,
+    explicacion: "Correcto. El NH₄Cl procede de HCl, ácido fuerte, y NH₃, base débil. El ion NH₄⁺ puede ceder H⁺ al agua, por eso la disolución es ácida."
+  },
+  {
+    enunciado: "7. Una disolución tampón sirve para:",
+    opciones: [
+      "Hacer que el pH cambie muchísimo.",
+      "Mantener el pH casi constante ante pequeñas adiciones de ácido o base.",
+      "Neutralizar siempre cualquier cantidad de ácido.",
+      "Conseguir que todas las disoluciones tengan pH 7."
+    ],
+    correcta: 1,
+    explicacion: "Correcto. Un tampón amortigua los cambios de pH, aunque no puede resistir cantidades ilimitadas de ácido o base."
+  },
+  {
+    enunciado: "8. En un tampón CH₃COOH / CH₃COO⁻, si añadimos HCl, ¿qué especie reacciona principalmente?",
+    opciones: [
+      "CH₃COOH",
+      "CH₃COO⁻",
+      "Na⁺",
+      "El indicador"
+    ],
+    correcta: 1,
+    explicacion: "Correcto. HCl aporta H⁺, que son captados por la base conjugada CH₃COO⁻ para formar CH₃COOH."
+  },
+  {
+    enunciado: "9. En una valoración ácido fuerte-base fuerte, el pH en equivalencia será aproximadamente:",
+    opciones: [
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    correcta: 2,
+    explicacion: "Correcto. Si reaccionan un ácido fuerte y una base fuerte, la sal formada no hidroliza de forma apreciable y el pH de equivalencia es aproximadamente 7."
+  },
+  {
+    enunciado: "10. En una valoración ácido débil-base fuerte, el pH en equivalencia será:",
+    opciones: [
+      "Menor que 7",
+      "Igual a 7",
+      "Mayor que 7",
+      "Siempre 14"
+    ],
+    correcta: 2,
+    explicacion: "Correcto. En equivalencia queda la base conjugada del ácido débil, que hidroliza formando OH⁻. Por eso el pH es mayor que 7."
+  },
+  {
+    enunciado: "11. Para una valoración ácido débil-base fuerte suele ser adecuado usar:",
+    opciones: [
+      "Fenolftaleína",
+      "Naranja de metilo",
+      "Ningún indicador porque no hay cambio de pH",
+      "Solo papel indicador universal"
+    ],
+    correcta: 0,
+    explicacion: "Correcto. El punto de equivalencia está en zona básica, por lo que la fenolftaleína suele ser adecuada."
+  },
+  {
+    enunciado: "12. El intervalo de viraje de la fenolftaleína es aproximadamente:",
+    opciones: [
+      "pH 3,1 - 4,4",
+      "pH 6,0 - 7,6",
+      "pH 8,2 - 10,0",
+      "pH 12 - 14"
+    ],
+    correcta: 2,
+    explicacion: "Correcto. La fenolftaleína vira aproximadamente entre pH 8,2 y 10,0."
+  }
+];
+
+let contestadasAcidoBase = new Array(preguntasAcidoBase.length).fill(false);
+let puntuacionAcidoBase = 0;
+
+function cargarQuizAcidoBase() {
+  const contenedor = document.getElementById("questions");
+  contenedor.innerHTML = "";
+
+  preguntasAcidoBase.forEach((pregunta, i) => {
+    const bloque = document.createElement("div");
+    bloque.style.background = "white";
+    bloque.style.border = "1px solid #cbd5e1";
+    bloque.style.borderRadius = "16px";
+    bloque.style.padding = "16px";
+    bloque.style.marginTop = "16px";
+    bloque.style.boxShadow = "0 4px 12px rgba(15,23,42,0.06)";
+
+    const titulo = document.createElement("p");
+    titulo.innerHTML = "<strong>" + pregunta.enunciado + "</strong>";
+    bloque.appendChild(titulo);
+
+    pregunta.opciones.forEach((opcion, j) => {
+      const boton = document.createElement("button");
+      boton.innerHTML = opcion;
+      boton.style.display = "block";
+      boton.style.width = "100%";
+      boton.style.textAlign = "left";
+      boton.style.margin = "8px 0";
+      boton.style.padding = "10px";
+      boton.style.borderRadius = "10px";
+      boton.style.border = "1px solid #cbd5e1";
+      boton.style.background = "#f8fafc";
+      boton.style.cursor = "pointer";
+
+      boton.onclick = function() {
+        corregirPreguntaAcidoBase(i, j, boton);
+      };
+
+      bloque.appendChild(boton);
+    });
+
+    const feedback = document.createElement("p");
+    feedback.id = "feedback-ab-" + i;
+    feedback.style.fontWeight = "bold";
+    feedback.style.marginTop = "10px";
+    bloque.appendChild(feedback);
+
+    contenedor.appendChild(bloque);
+  });
+
+  actualizarResultadoAcidoBase();
+}
+
+function corregirPreguntaAcidoBase(i, j, botonPulsado) {
+  const pregunta = preguntasAcidoBase[i];
+  const feedback = document.getElementById("feedback-ab-" + i);
+  const botones = botonPulsado.parentElement.querySelectorAll("button");
+
+  if (!contestadasAcidoBase[i]) {
+    contestadasAcidoBase[i] = true;
+    if (j === pregunta.correcta) {
+      puntuacionAcidoBase++;
+    }
+  }
+
+  botones.forEach((boton, indice) => {
+    boton.disabled = true;
+    boton.style.cursor = "default";
+
+    if (indice === pregunta.correcta) {
+      boton.style.background = "#dcfce7";
+      boton.style.border = "1px solid #22c55e";
+    } else if (indice === j) {
+      boton.style.background = "#fee2e2";
+      boton.style.border = "1px solid #ef4444";
+    }
+  });
+
+  if (j === pregunta.correcta) {
+    feedback.style.color = "#166534";
+    feedback.innerHTML = pregunta.explicacion;
+  } else {
+    feedback.style.color = "#991b1b";
+    feedback.innerHTML = "No es correcto. " + pregunta.explicacion;
+  }
+
+  actualizarResultadoAcidoBase();
+}
+
+function actualizarResultadoAcidoBase() {
+  const respondidas = contestadasAcidoBase.filter(x => x).length;
+  const resultado = document.getElementById("resultado-final");
+  resultado.innerHTML = "Puntuación: " + puntuacionAcidoBase + "/" + preguntasAcidoBase.length + 
+  " | Preguntas respondidas: " + respondidas + "/" + preguntasAcidoBase.length;
+}
+
+function reiniciarQuizAcidoBase() {
+  contestadasAcidoBase = new Array(preguntasAcidoBase.length).fill(false);
+  puntuacionAcidoBase = 0;
+  cargarQuizAcidoBase();
+}
+
+cargarQuizAcidoBase();
+</script>
+</p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="202604271803038802N2" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Problemas numérico autocorregibles</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202604271803038786RK" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div id="problemas-numericos-ab" style="font-family: Arial, sans-serif; line-height: 1.6; background: #f8fafc; border: 1px solid #dbeafe; border-radius: 18px; padding: 22px;">
+<h2 style="color: #1d4ed8; margin-top: 0;">Problemas numéricos autocorregibles</h2>
+<p>Resuelve cada problema e introduce el resultado. Usa punto decimal si lo necesitas.</p>
+<div style="background: #fef3c7; border-left: 6px solid #f59e0b; padding: 14px; border-radius: 12px; margin: 16px 0;">
+<p><strong>Recuerda:</strong> en neutralización completa se cumple que los moles de H<sup>+</sup> son iguales a los moles de OH<sup>-</sup>.</p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>1. Calcula el volumen de NaOH 0,20 M necesario para neutralizar 50 mL de HCl 0,10 M.</strong></p>
+<p>Resultado en mL:</p>
+<input id="p1" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p1',25,0.1,'f1','Correcto. n(HCl)=0,10·0,050=0,005 mol. Como HCl y NaOH reaccionan 1:1, V=0,005/0,20=0,025 L=25 mL.')">Corregir</button>
+<p id="f1" style="font-weight: bold;"></p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>2. Calcula el volumen de HCl 0,10 M necesario para neutralizar 40 mL de Ca(OH)<sub>2</sub> 0,25 M.</strong></p>
+<p>Resultado en mL:</p>
+<input id="p2" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p2',200,0.1,'f2','Correcto. n(Ca(OH)₂)=0,25·0,040=0,010 mol. Como aporta 2 OH⁻, hay 0,020 mol de OH⁻. Se necesitan 0,020 mol de HCl. V=0,020/0,10=0,20 L=200 mL.')">Corregir</button>
+<p id="f2" style="font-weight: bold;"></p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>3. Se neutralizan 20 mL de HCl con 25 mL de NaOH 0,20 M. Calcula la concentración del HCl.</strong></p>
+<p>Resultado en mol/L:</p>
+<input id="p3" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p3',0.25,0.01,'f3','Correcto. n(NaOH)=0,20·0,025=0,005 mol. En equivalencia hay 0,005 mol de HCl. M=0,005/0,020=0,25 M.')">Corregir</button>
+<p id="f3" style="font-weight: bold;"></p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>4. Calcula el pH de una disolución con [H<sub>3</sub>O<sup>+</sup>] = 1,0·10<sup>-3</sup> M.</strong></p>
+<p>Resultado:</p>
+<input id="p4" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p4',3,0.05,'f4','Correcto. pH = -log(1,0·10⁻³) = 3.')">Corregir</button>
+<p id="f4" style="font-weight: bold;"></p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>5. Calcula el pOH de una disolución con [OH<sup>-</sup>] = 1,0·10<sup>-4</sup> M.</strong></p>
+<p>Resultado:</p>
+<input id="p5" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p5',4,0.05,'f5','Correcto. pOH = -log(1,0·10⁻⁴) = 4.')">Corregir</button>
+<p id="f5" style="font-weight: bold;"></p>
+</div>
+<div class="problema" style="background: white; border: 1px solid #cbd5e1; border-radius: 16px; padding: 16px; margin-top: 16px;">
+<p><strong>6. Si el pOH de una disolución es 4, calcula su pH.</strong></p>
+<p>Resultado:</p>
+<input id="p6" type="number" step="0.01" style="padding: 10px; border-radius: 10px; border: 1px solid #cbd5e1;"> <button onclick="corregirNumerico('p6',10,0.05,'f6','Correcto. A 25 ºC se cumple pH + pOH = 14. Por tanto, pH = 14 - 4 = 10.')">Corregir</button>
+<p id="f6" style="font-weight: bold;"></p>
+</div>
+</div>
+<p>
+<script>
+function corregirNumerico(inputId, correcto, tolerancia, feedbackId, explicacion) {
+  const valor = parseFloat(document.getElementById(inputId).value);
+  const feedback = document.getElementById(feedbackId);
+
+  if (isNaN(valor)) {
+    feedback.style.color = "#991b1b";
+    feedback.innerHTML = "Introduce un número antes de corregir.";
+    return;
+  }
+
+  if (Math.abs(valor - correcto) <= tolerancia) {
+    feedback.style.color = "#166534";
+    feedback.innerHTML = "Correcto. " + explicacion;
+  } else {
+    feedback.style.color = "#991b1b";
+    feedback.innerHTML = "No es correcto. Revisa el planteamiento. " + explicacion;
+  }
+}
+</script>
+</p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="202604271804030859X0" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Clasificación de sales autocorregible</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="202604271804030848DP" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div id="sales-autocorregible" style="font-family: Arial, sans-serif; line-height: 1.6; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 18px; padding: 22px;">
+<h2 style="color: #1d4ed8; margin-top: 0;">Clasificación de sales: ácida, básica o neutra</h2>
+<p>Elige el carácter de cada disolución salina.</p>
+<div id="contenedor-sales"></div>
+</div>
+<p>
+<script>
+const sales = [
+  {
+    nombre: "NaCl",
+    correcta: "neutra",
+    explicacion: "NaCl procede de HCl y NaOH, ácido fuerte y base fuerte. La disolución es neutra."
+  },
+  {
+    nombre: "CH₃COONa",
+    correcta: "basica",
+    explicacion: "CH₃COONa procede de ácido acético débil y NaOH fuerte. El ion acetato hidroliza formando OH⁻. La disolución es básica."
+  },
+  {
+    nombre: "NH₄Cl",
+    correcta: "acida",
+    explicacion: "NH₄Cl procede de HCl fuerte y NH₃ débil. El ion NH₄⁺ hidroliza formando H₃O⁺. La disolución es ácida."
+  },
+  {
+    nombre: "KCN",
+    correcta: "basica",
+    explicacion: "KCN procede de HCN débil y KOH fuerte. El ion CN⁻ hidroliza formando OH⁻. La disolución es básica."
+  },
+  {
+    nombre: "NH₄NO₃",
+    correcta: "acida",
+    explicacion: "NH₄NO₃ procede de HNO₃ fuerte y NH₃ débil. El ion NH₄⁺ da carácter ácido."
+  }
+];
+
+function cargarSales() {
+  const contenedor = document.getElementById("contenedor-sales");
+  contenedor.innerHTML = "";
+
+  sales.forEach((sal, i) => {
+    const bloque = document.createElement("div");
+    bloque.style.background = "#f8fafc";
+    bloque.style.border = "1px solid #cbd5e1";
+    bloque.style.borderRadius = "16px";
+    bloque.style.padding = "16px";
+    bloque.style.marginTop = "14px";
+
+    bloque.innerHTML = "<p><strong>" + sal.nombre + "</strong></p>";
+
+    ["acida", "basica", "neutra"].forEach(tipo => {
+      const btn = document.createElement("button");
+      btn.innerHTML = tipo === "acida" ? "Ácida" : tipo === "basica" ? "Básica" : "Neutra";
+      btn.style.margin = "5px";
+      btn.style.padding = "10px 14px";
+      btn.style.borderRadius = "10px";
+      btn.style.border = "1px solid #cbd5e1";
+      btn.style.cursor = "pointer";
+
+      btn.onclick = function() {
+        corregirSal(i, tipo, btn);
+      };
+
+      bloque.appendChild(btn);
+    });
+
+    const feedback = document.createElement("p");
+    feedback.id = "feedback-sal-" + i;
+    feedback.style.fontWeight = "bold";
+    bloque.appendChild(feedback);
+
+    contenedor.appendChild(bloque);
+  });
+}
+
+function corregirSal(i, respuesta, boton) {
+  const sal = sales[i];
+  const feedback = document.getElementById("feedback-sal-" + i);
+  const botones = boton.parentElement.querySelectorAll("button");
+
+  botones.forEach(b => {
+    b.disabled = true;
+    b.style.cursor = "default";
+  });
+
+  if (respuesta === sal.correcta) {
+    boton.style.background = "#dcfce7";
+    boton.style.borderColor = "#22c55e";
+    feedback.style.color = "#166534";
+    feedback.innerHTML = "Correcto. " + sal.explicacion;
+  } else {
+    boton.style.background = "#fee2e2";
+    boton.style.borderColor = "#ef4444";
+    feedback.style.color = "#991b1b";
+    feedback.innerHTML = "No es correcto. " + sal.explicacion;
+  }
+}
+
+cargarSales();
+</script>
+</p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/problemas-guiados.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><span class="nav-button nav-button-right" aria-hidden="true"> <span>Siguiente</span></span>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>

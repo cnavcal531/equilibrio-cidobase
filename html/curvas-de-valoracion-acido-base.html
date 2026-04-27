@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="es" id="exe-node-20260427143309ZOFKHI">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v3.0.2">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="license" type="text/html" href="https://creativecommons.org/licenses/by-sa/4.0/">
+<title>Curvas de valoración ácido-base | Equilibrio ácido-base</title>
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"> </script><link rel="stylesheet" href="../idevices/text/text.css">
+<link rel="stylesheet" href="../content/css/base.css">
+<script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+</head>
+<body class="exe-export exe-web-site" lang="es">
+<script>document.body.className+=" js"</script><div class="exe-content exe-export pre-js siteNav-hidden"> <nav id="siteNav"> <ul> <li> <a href="../index.html" class="main-node daddy">Introducción</a><ul class="other-section"> <li> <a href="../html/fundamentos-acido-base.html" class="no-ch">Fundamentos ácido-base</a>
+</li>
+<li> <a href="../html/fuerza-acido-base.html" class="no-ch">Fuerza ácido base</a>
+</li>
+<li> <a href="../html/autoionizacion-del-agua-kw-ph-y-poh.html" class="no-ch">Autoionización del agua, Kw, pH y pOH</a>
+</li>
+<li> <a href="../html/calculo-de-ph-en-acidos-y-bases-debiles.html" class="no-ch">Cálculo de pH en ácidos y bases débiles</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/apuntes-interactivos.html" class="no-ch">Apuntes interactivos</a>
+</li>
+<li class="active"> <a href="../html/curvas-de-valoracion-acido-base.html" class="active no-ch">Curvas de valoración ácido-base</a>
+</li>
+<li> <a href="../html/problemas-guiados.html" class="no-ch">Problemas guiados</a>
+</li>
+<li> <a href="../html/problemas.html" class="no-ch">Problemas</a>
+</li>
+</ul></nav><main id="20260427143309ZOFKHI" class="page"> <header id="header-20260427143309ZOFKHI" class="main-header"> <div class="package-header"><h1 class="package-title">Equilibrio ácido-base</h1></div>
+<div class="page-header"><h2 class="page-title">Curvas de valoración ácido-base</h2></div></header><div id="page-content-20260427143309ZOFKHI" class="page-content"> <article id="20260427165907031YQR" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Antes de usar el simulador</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260427165907029QIJ" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div style="font-family: Arial, sans-serif; line-height: 1.6; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 20px;">
+<h2 style="color: #1d4ed8; margin-top: 0;">Antes de usar el simulador</h2>
+<p>Antes de dibujar las curvas de valoración, intenta responder mentalmente a estas preguntas. Te ayudarán a interpretar mejor las gráficas.</p>
+<div style="background: #eff6ff; padding: 14px; border-radius: 12px; margin: 16px 0;">
+<p><strong>1.</strong> Si valoro un ácido fuerte con una base fuerte, ¿el pH en equivalencia será menor, igual o mayor que 7?</p>
+<p><strong>2.</strong> Si valoro un ácido débil con una base fuerte, ¿por qué el pH en equivalencia será mayor que 7?</p>
+<p><strong>3.</strong> Si valoro una base débil con un ácido fuerte, ¿por qué el pH en equivalencia será menor que 7?</p>
+<p><strong>4.</strong> ¿Qué diferencia hay entre punto de equivalencia y punto final?</p>
+<p><strong>5.</strong> ¿Por qué no siempre sirve el mismo indicador?</p>
+</div>
+<div style="background: #fef3c7; border-left: 6px solid #f59e0b; padding: 14px; border-radius: 12px;">
+<p><strong>Idea para trabajar en clase:</strong></p>
+<p>Primero responde sin mirar la simulación. Después usa la herramienta y comprueba si la curva confirma tu razonamiento.</p>
+</div>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20260427165118280A6S" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Herramienta curva de valoración ácido-base</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260427165118278AE7" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><p><br></p>
+<style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --primary-soft: #dbeafe;
+      --border: #d1d5db;
+      --danger: #ef4444;
+      --success: #16a34a;
+      --warning: #f59e0b;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1d4ed8, #3b82f6);
+      color: white;
+      padding: 28px;
+      border-radius: 22px;
+      margin-bottom: 20px;
+      box-shadow: 0 12px 28px rgba(37, 99, 235, 0.22);
+    }
+
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+    }
+
+    .header p {
+      margin: 0;
+      max-width: 920px;
+      font-size: 17px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+    }
+
+    h2, h3 {
+      margin-top: 0;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+
+    select, input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      font-size: 15px;
+      box-sizing: border-box;
+      background: white;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    button {
+      width: 100%;
+      border: none;
+      border-radius: 14px;
+      padding: 12px 14px;
+      margin-top: 12px;
+      background: var(--primary);
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #1d4ed8;
+    }
+
+    button:disabled {
+      cursor: default;
+      opacity: 0.92;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+
+    .chart-wrap {
+      background: #fff;
+      border-radius: 18px;
+      padding: 12px;
+      border: 1px solid var(--border);
+    }
+
+    canvas {
+      width: 100%;
+      height: 470px;
+      display: block;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .pill {
+      background: var(--primary-soft);
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid #bfdbfe;
+      font-size: 14px;
+    }
+
+    .pill strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #1e40af;
+    }
+
+    .explain {
+      margin-top: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+    }
+
+    .explain p {
+      margin: 8px 0;
+    }
+
+    .legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+
+    .note {
+      margin-top: 14px;
+      padding: 14px;
+      border-radius: 14px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #7c2d12;
+      font-size: 14px;
+    }
+
+    .indicator-box {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .indicator-card {
+      padding: 14px;
+      border-radius: 16px;
+      background: #f9fafb;
+      border: 1px solid var(--border);
+    }
+
+    .indicator-card strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .quiz-card {
+      border: 1px solid #d1d5db;
+      border-radius: 16px;
+      padding: 14px;
+      margin-top: 14px;
+      background: #f9fafb;
+    }
+
+    .quiz-card button {
+      background: #ffffff;
+      color: #1f2937;
+      border: 1px solid #d1d5db;
+      text-align: left;
+      font-weight: normal;
+    }
+
+    .quiz-card button:hover {
+      background: #eff6ff;
+    }
+
+    @media (max-width: 900px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .info-grid, .indicator-box {
+        grid-template-columns: 1fr;
+      }
+      canvas {
+        height: 380px;
+      }
+    }
+  </style>
+<div class="container">
+<section class="header">
+<h1>Curvas de valoración ácido-base</h1>
+<p>Herramienta didáctica para visualizar cómo cambia el pH durante una valoración. Permite comparar cuatro casos: ácido fuerte-base fuerte, ácido débil-base fuerte, base débil-ácido fuerte y ácido débil-base débil.</p>
+</section>
+<div class="grid">
+<aside class="card">
+<h2>Configuración</h2>
+<label for="type">Tipo de valoración</label><select id="type">
+<option value="strongAcidStrongBase">Ácido fuerte con base fuerte</option>
+<option value="weakAcidStrongBase">Ácido débil con base fuerte</option>
+<option value="weakBaseStrongAcid">Base débil con ácido fuerte</option>
+<option value="weakAcidWeakBase">Ácido débil con base débil</option>
+</select>
+<div class="row">
+<div><label for="cAnalyte">Concentración problema (M)</label> <input id="cAnalyte" type="number" value="0.10" min="0.001" max="2" step="0.01"></div>
+<div><label for="vAnalyte">Volumen problema (mL)</label> <input id="vAnalyte" type="number" value="50" min="1" max="500" step="1"></div>
+</div>
+<label for="cTitrant">Concentración valorante (M)</label> <input id="cTitrant" type="number" value="0.10" min="0.001" max="2" step="0.01"> <label for="ka">Ka del ácido débil</label> <input id="ka" type="number" value="0.000018" min="0.0000000001" max="1" step="0.000001">
+<p class="small">Ejemplo: ácido acético, Ka = 1,8·10⁻⁵. En ácido fuerte-base fuerte no se utiliza.</p>
+<label for="kb">Kb de la base débil</label> <input id="kb" type="number" value="0.000018" min="0.0000000001" max="1" step="0.000001">
+<p class="small">Ejemplo: amoniaco, Kb = 1,8·10⁻⁵. Solo se usa en base débil-ácido fuerte y ácido débil-base débil.</p>
+<button onclick="updateAll()">Dibujar curva</button>
+<div class="note">En el punto de equivalencia se cumple siempre: moles de H⁺ = moles de OH⁻. Lo que cambia es el pH de equivalencia según la fuerza del ácido y de la base.</div>
+</aside>
+<main class="card">
+<h2 id="chartTitle">Curva de valoración</h2>
+<div class="legend"><span><span class="dot" style="background: #2563eb;"></span>Curva de pH</span> <span><span class="dot" style="background: #ef4444;"></span>Punto de equivalencia</span> <span><span class="dot" style="background: #f59e0b;"></span>Zona tampón aproximada</span> <span><span class="dot" style="background: #16a34a;"></span>Línea pH = 7</span> <span><span class="dot" style="background: #fee2e2;"></span>Zona ácida</span> <span><span class="dot" style="background: #dbeafe;"></span>Zona básica</span></div>
+<div class="chart-wrap"><canvas id="chart" width="900" height="470"></canvas></div>
+<div class="info-grid">
+<div class="pill"><strong>Volumen de equivalencia</strong> <span id="eqVolume">---</span></div>
+<div class="pill"><strong>pH en equivalencia</strong> <span id="eqPH">---</span></div>
+<div class="pill"><strong>Indicador orientativo</strong> <span id="indicator">---</span></div>
+</div>
+<section class="explain" id="explanation"></section>
+</main></div>
+<section class="card" style="margin-top: 20px;">
+<h2>Intervalos de viraje de indicadores</h2>
+<p>Un indicador debe elegirse de forma que su intervalo de viraje coincida con la zona de salto brusco de pH. No tiene que virar exactamente en el pH de equivalencia, sino dentro del cambio vertical de la curva.</p>
+<div class="indicator-box">
+<div class="indicator-card"><strong>Naranja de metilo</strong> Intervalo de viraje: pH 3,1 - 4,4.<br>Color: rojo en medio ácido y amarillo en medio menos ácido/básico.<br>Útil cuando el punto final está en zona ácida.</div>
+<div class="indicator-card"><strong>Azul de bromotimol</strong> Intervalo de viraje: pH 6,0 - 7,6.<br>Color: amarillo en medio ácido, verde cerca de neutro y azul en medio básico.<br>Muy útil cuando la equivalencia está cerca de pH 7.</div>
+<div class="indicator-card"><strong>Fenolftaleína</strong> Intervalo de viraje: pH 8,2 - 10,0.<br>Color: incolora en medio ácido o neutro y rosa en medio básico.<br>Muy útil cuando el punto final está en zona básica.</div>
+</div>
+</section>
+<section class="card" style="margin-top: 20px;">
+<h2>Autoevaluación interactiva</h2>
+<p>Estas preguntas sirven para comprobar si se ha entendido la curva de valoración, el punto de equivalencia, la zona tampón y la elección del indicador. Pulsa una respuesta y recibirás corrección inmediata.</p>
+<div id="quiz"></div>
+<button onclick="resetQuiz()" style="max-width: 260px;">Reiniciar preguntas</button>
+<p id="scoreBox" style="font-weight: bold; margin-top: 12px;"></p>
+</section>
+</div>
+<p>
+<script>
+    const Kw = 1e-14;
+
+    function log10(x) {
+      return Math.log(x) / Math.LN10;
+    }
+
+    function clampPH(ph) {
+      if (!isFinite(ph) || isNaN(ph)) return 7;
+      return Math.max(0, Math.min(14, ph));
+    }
+
+    function pHStrongAcid(H) {
+      return -log10(H);
+    }
+
+    function pOHStrongBase(OH) {
+      return -log10(OH);
+    }
+
+    function weakAcidPH(C, Ka) {
+      const x = (-Ka + Math.sqrt(Ka * Ka + 4 * Ka * C)) / 2;
+      return -log10(x);
+    }
+
+    function weakBasePH(C, Kb) {
+      const x = (-Kb + Math.sqrt(Kb * Kb + 4 * Kb * C)) / 2;
+      return 14 + log10(x);
+    }
+
+    function getValues() {
+      return {
+        type: document.getElementById("type").value,
+        cAnalyte: parseFloat(document.getElementById("cAnalyte").value),
+        vAnalyte: parseFloat(document.getElementById("vAnalyte").value) / 1000,
+        cTitrant: parseFloat(document.getElementById("cTitrant").value),
+        ka: parseFloat(document.getElementById("ka").value),
+        kb: parseFloat(document.getElementById("kb").value)
+      };
+    }
+
+    function calculatePH(type, cA, vA, cT, vT, ka, kb) {
+      const nA = cA * vA;
+      const nT = cT * vT;
+      const vTotal = vA + vT;
+      const eps = 1e-10;
+
+      if (type === "strongAcidStrongBase") {
+        if (Math.abs(nA - nT) < eps) return 7;
+        if (nA > nT) return pHStrongAcid((nA - nT) / vTotal);
+        return 14 - pOHStrongBase((nT - nA) / vTotal);
+      }
+
+      if (type === "weakAcidStrongBase") {
+        const pKa = -log10(ka);
+        if (vT === 0) return weakAcidPH(cA, ka);
+        if (nT < nA) {
+          const nHA = nA - nT;
+          const nAminus = nT;
+          if (nAminus <= 0) return weakAcidPH(nHA / vTotal, ka);
+          return pKa + log10(nAminus / nHA);
+        }
+        if (Math.abs(nA - nT) < eps) {
+          const KbConj = Kw / ka;
+          const Csalt = nA / vTotal;
+          const OH = Math.sqrt(KbConj * Csalt);
+          return 14 + log10(OH);
+        }
+        return 14 - pOHStrongBase((nT - nA) / vTotal);
+      }
+
+      if (type === "weakBaseStrongAcid") {
+        const pKb = -log10(kb);
+        const pKaConj = 14 - pKb;
+        if (vT === 0) return weakBasePH(cA, kb);
+        if (nT < nA) {
+          const nB = nA - nT;
+          const nBH = nT;
+          if (nBH <= 0) return weakBasePH(nB / vTotal, kb);
+          return pKaConj + log10(nB / nBH);
+        }
+        if (Math.abs(nA - nT) < eps) {
+          const KaConj = Kw / kb;
+          const Csalt = nA / vTotal;
+          const H = Math.sqrt(KaConj * Csalt);
+          return -log10(H);
+        }
+        return pHStrongAcid((nT - nA) / vTotal);
+      }
+
+      if (type === "weakAcidWeakBase") {
+        const pKa = -log10(ka);
+        const pKb = -log10(kb);
+        const pKaBH = 14 - pKb;
+
+        if (vT === 0) return weakAcidPH(cA, ka);
+
+        if (nT < nA) {
+          const nHA = nA - nT;
+          const nAminus = nT;
+          if (nAminus <= 0) return weakAcidPH(nHA / vTotal, ka);
+          return pKa + log10(nAminus / nHA);
+        }
+
+        if (Math.abs(nA - nT) < eps) {
+          return 7 + 0.5 * log10(kb / ka);
+        }
+
+        const nBexcess = nT - nA;
+        const nBH = nA;
+        if (nBH <= 0) return weakBasePH(nBexcess / vTotal, kb);
+        return pKaBH + log10(nBexcess / nBH);
+      }
+    }
+
+    function drawChart(points, vEq, type) {
+      const canvas = document.getElementById("chart");
+      const ctx = canvas.getContext("2d");
+      const W = canvas.width;
+      const H = canvas.height;
+      ctx.clearRect(0, 0, W, H);
+
+      const margin = { left: 60, right: 25, top: 25, bottom: 55 };
+      const plotW = W - margin.left - margin.right;
+      const plotH = H - margin.top - margin.bottom;
+      const maxV = points[points.length - 1].v;
+
+      function xScale(v) {
+        return margin.left + (v / maxV) * plotW;
+      }
+
+      function yScale(ph) {
+        return margin.top + ((14 - ph) / 14) * plotH;
+      }
+
+      ctx.strokeStyle = "#d1d5db";
+      ctx.lineWidth = 1;
+      ctx.font = "14px Arial";
+      ctx.fillStyle = "#374151";
+
+      for (let ph = 0; ph <= 14; ph += 2) {
+        const y = yScale(ph);
+        ctx.beginPath();
+        ctx.moveTo(margin.left, y);
+        ctx.lineTo(W - margin.right, y);
+        ctx.stroke();
+        ctx.fillText(ph.toString(), 25, y + 5);
+      }
+
+      for (let i = 0; i <= 5; i++) {
+        const v = (maxV / 5) * i;
+        const x = xScale(v);
+        ctx.beginPath();
+        ctx.moveTo(x, margin.top);
+        ctx.lineTo(x, H - margin.bottom);
+        ctx.stroke();
+        ctx.fillText(v.toFixed(0), x - 8, H - 25);
+      }
+
+      ctx.fillStyle = "rgba(239, 68, 68, 0.08)";
+      ctx.fillRect(margin.left, yScale(7), plotW, H - margin.bottom - yScale(7));
+      ctx.fillStyle = "rgba(37, 99, 235, 0.08)";
+      ctx.fillRect(margin.left, margin.top, plotW, yScale(7) - margin.top);
+
+      ctx.strokeStyle = "#16a34a";
+      ctx.lineWidth = 2;
+      ctx.setLineDash([5, 5]);
+      ctx.beginPath();
+      ctx.moveTo(margin.left, yScale(7));
+      ctx.lineTo(W - margin.right, yScale(7));
+      ctx.stroke();
+      ctx.setLineDash([]);
+      ctx.fillStyle = "#166534";
+      ctx.font = "bold 13px Arial";
+      ctx.fillText("pH = 7", W - margin.right - 55, yScale(7) - 8);
+
+      ctx.fillStyle = "#991b1b";
+      ctx.font = "bold 13px Arial";
+      ctx.fillText("zona ácida", margin.left + 10, yScale(3.5));
+      ctx.fillStyle = "#1e40af";
+      ctx.fillText("zona básica", margin.left + 10, yScale(11));
+
+      ctx.strokeStyle = "#111827";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(margin.left, margin.top);
+      ctx.lineTo(margin.left, H - margin.bottom);
+      ctx.lineTo(W - margin.right, H - margin.bottom);
+      ctx.stroke();
+
+      ctx.fillStyle = "#111827";
+      ctx.fillText("pH", 22, 24);
+      ctx.fillText("Volumen de valorante añadido (mL)", W / 2 - 105, H - 8);
+
+      const eqX = xScale(vEq);
+      ctx.strokeStyle = "#ef4444";
+      ctx.setLineDash([6, 5]);
+      ctx.beginPath();
+      ctx.moveTo(eqX, margin.top);
+      ctx.lineTo(eqX, H - margin.bottom);
+      ctx.stroke();
+      ctx.setLineDash([]);
+
+      if (type !== "strongAcidStrongBase") {
+        const startBuffer = xScale(vEq * 0.12);
+        const endBuffer = xScale(vEq * 0.88);
+        ctx.fillStyle = "rgba(245, 158, 11, 0.16)";
+        ctx.fillRect(startBuffer, margin.top, endBuffer - startBuffer, plotH);
+        ctx.fillStyle = "#92400e";
+        ctx.font = "bold 13px Arial";
+        ctx.fillText("zona tampón", startBuffer + 10, margin.top + 22);
+      }
+
+      ctx.strokeStyle = "#2563eb";
+      ctx.lineWidth = 4;
+      ctx.beginPath();
+      points.forEach((p, i) => {
+        const x = xScale(p.v);
+        const y = yScale(p.ph);
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      });
+      ctx.stroke();
+
+      const eqPoint = points.reduce((best, p) => Math.abs(p.v - vEq) < Math.abs(best.v - vEq) ? p : best, points[0]);
+      ctx.fillStyle = "#ef4444";
+      ctx.beginPath();
+      ctx.arc(eqX, yScale(eqPoint.ph), 6, 0, Math.PI * 2);
+      ctx.fill();
+
+      ctx.fillStyle = "#991b1b";
+      ctx.font = "bold 14px Arial";
+      ctx.fillText("Punto de equivalencia", eqX + 10, yScale(eqPoint.ph) - 12);
+      ctx.fillText(`pH ≈ ${eqPoint.ph.toFixed(2)}`, eqX + 10, yScale(eqPoint.ph) + 8);
+    }
+
+    function updateInputAvailability() {
+      const type = document.getElementById("type").value;
+      const kaInput = document.getElementById("ka");
+      const kbInput = document.getElementById("kb");
+
+      kaInput.disabled = false;
+      kbInput.disabled = false;
+      kaInput.style.background = "white";
+      kbInput.style.background = "white";
+      kaInput.style.color = "#1f2937";
+      kbInput.style.color = "#1f2937";
+
+      if (type === "strongAcidStrongBase") {
+        kaInput.disabled = true;
+        kbInput.disabled = true;
+      }
+
+      if (type === "weakAcidStrongBase") {
+        kaInput.disabled = false;
+        kbInput.disabled = true;
+      }
+
+      if (type === "weakBaseStrongAcid") {
+        kaInput.disabled = true;
+        kbInput.disabled = false;
+      }
+
+      if (type === "weakAcidWeakBase") {
+        kaInput.disabled = false;
+        kbInput.disabled = false;
+      }
+
+      [kaInput, kbInput].forEach(input => {
+        if (input.disabled) {
+          input.style.background = "#f3f4f6";
+          input.style.color = "#9ca3af";
+        }
+      });
+    }
+
+    function updateAll() {
+      updateInputAvailability();
+      const { type, cAnalyte, vAnalyte, cTitrant, ka, kb } = getValues();
+      const nA = cAnalyte * vAnalyte;
+      const vEqL = nA / cTitrant;
+      const vEqML = vEqL * 1000;
+      const maxML = Math.max(vEqML * 2, 100);
+      const points = [];
+
+      for (let i = 0; i <= 600; i++) {
+        const vML = (maxML * i) / 600;
+        const ph = calculatePH(type, cAnalyte, vAnalyte, cTitrant, vML / 1000, ka, kb);
+        points.push({ v: vML, ph: clampPH(ph) });
+      }
+
+      const phEq = clampPH(calculatePH(type, cAnalyte, vAnalyte, cTitrant, vEqL, ka, kb));
+      drawChart(points, vEqML, type);
+
+      document.getElementById("eqVolume").textContent = `${vEqML.toFixed(1)} mL`;
+      document.getElementById("eqPH").textContent = phEq.toFixed(2);
+
+      const title = document.getElementById("chartTitle");
+      const explanation = document.getElementById("explanation");
+      const indicator = document.getElementById("indicator");
+
+      if (type === "strongAcidStrongBase") {
+        title.textContent = "Ácido fuerte con base fuerte";
+        indicator.textContent = "Azul de bromotimol; también pueden funcionar fenolftaleína o naranja de metilo si el salto es amplio";
+        explanation.innerHTML = `
+          <h3>Interpretación didáctica</h3>
+          <p>Al principio predomina el ácido fuerte, por eso el pH es bajo.</p>
+          <p>Al añadir base fuerte, los OH⁻ neutralizan los H⁺: H⁺ + OH⁻ → H₂O.</p>
+          <p>En el punto de equivalencia se cumple: <strong>moles de H⁺ = moles de OH⁻</strong>. Como reaccionan un ácido fuerte y una base fuerte, el pH es aproximadamente 7.</p>
+          <p>El salto de pH cerca de equivalencia suele ser muy brusco, por eso varios indicadores pueden funcionar. El azul de bromotimol es muy adecuado porque vira cerca de pH 7.</p>
+        `;
+      }
+
+      if (type === "weakAcidStrongBase") {
+        title.textContent = "Ácido débil con base fuerte";
+        indicator.textContent = "Fenolftaleína";
+        explanation.innerHTML = `
+          <h3>Interpretación didáctica</h3>
+          <p>El pH inicial no es tan bajo como en un ácido fuerte porque el ácido débil se disocia parcialmente.</p>
+          <p>Antes del punto de equivalencia aparece una <strong>zona tampón</strong>, porque coexisten el ácido débil HA y su base conjugada A⁻.</p>
+          <p>En el punto de equivalencia queda la sal de la base conjugada A⁻, que sufre hidrólisis básica. Por eso el pH de equivalencia es mayor que 7.</p>
+          <p>La fenolftaleína suele ser adecuada porque su intervalo de viraje está en zona básica.</p>
+        `;
+      }
+
+      if (type === "weakBaseStrongAcid") {
+        title.textContent = "Base débil con ácido fuerte";
+        indicator.textContent = "Naranja de metilo";
+        explanation.innerHTML = `
+          <h3>Interpretación didáctica</h3>
+          <p>El pH inicial es básico, pero no tan alto como en una base fuerte porque la base débil se ioniza parcialmente.</p>
+          <p>Antes del punto de equivalencia aparece una <strong>zona tampón</strong>, porque coexisten la base débil B y su ácido conjugado BH⁺.</p>
+          <p>En el punto de equivalencia queda BH⁺, que sufre hidrólisis ácida. Por eso el pH de equivalencia es menor que 7.</p>
+          <p>El naranja de metilo suele ser razonable porque su intervalo de viraje está en zona ácida.</p>
+        `;
+      }
+
+      if (type === "weakAcidWeakBase") {
+        title.textContent = "Ácido débil con base débil";
+        if (ka > kb) indicator.textContent = "Difícil elección; equivalencia ácida. Podría aproximarse naranja de metilo si el salto lo permite";
+        else if (kb > ka) indicator.textContent = "Difícil elección; equivalencia básica. Podría aproximarse fenolftaleína si el salto lo permite";
+        else indicator.textContent = "Difícil elección; equivalencia próxima a 7. El salto suele ser pequeño";
+        explanation.innerHTML = `
+          <h3>Interpretación didáctica</h3>
+          <p>Este caso es más delicado. La curva suele presentar un salto de pH mucho menos brusco que en las valoraciones con ácido o base fuerte.</p>
+          <p>En el punto de equivalencia se cumple igualmente: <strong>moles de H⁺ = moles de OH⁻</strong>, pero el pH depende de la comparación entre Ka del ácido débil y Kb de la base débil.</p>
+          <p>Si Ka &gt; Kb, predomina el carácter ácido y el pH de equivalencia será menor que 7. Si Kb &gt; Ka, predomina el carácter básico y el pH será mayor que 7. Si Ka ≈ Kb, el pH estará próximo a 7.</p>
+          <p>Como el salto es pequeño, muchas veces no hay un indicador visual claramente adecuado. Es un buen ejemplo para entender por qué algunas valoraciones necesitan pH-metro.</p>
+          <p><strong>Nota:</strong> esta curva es una representación didáctica aproximada. Sirve para comparar tendencias y comprender el comportamiento general, pero no sustituye a un cálculo experimental o analítico avanzado.</p>
+        `;
+      }
+    }
+
+    document.querySelectorAll("input, select").forEach(el => {
+      el.addEventListener("change", updateAll);
+      el.addEventListener("input", updateAll);
+    });
+
+    const quizQuestions = [
+      {
+        q: "1. En una valoración de HCl con NaOH, ¿qué ocurre en el punto de equivalencia?",
+        options: [
+          "Hay exceso de ácido fuerte.",
+          "Los moles de H⁺ son iguales a los moles de OH⁻.",
+          "El pH siempre es mayor que 7.",
+          "La disolución actúa necesariamente como tampón."
+        ],
+        correct: 1,
+        feedbackOk: "Correcto. En el punto de equivalencia la neutralización es completa: moles de H⁺ = moles de OH⁻.",
+        feedbackBad: "No exactamente. En equivalencia no sobra ácido ni base en términos estequiométricos; lo importante es que se igualan los moles de H⁺ y OH⁻."
+      },
+      {
+        q: "2. En una valoración ácido fuerte - base fuerte, el pH en el punto de equivalencia es aproximadamente...",
+        options: ["3", "5", "7", "10"],
+        correct: 2,
+        feedbackOk: "Correcto. Si el ácido y la base son fuertes, la sal formada no hidroliza de forma apreciable y el pH queda alrededor de 7.",
+        feedbackBad: "Incorrecto. En ácido fuerte + base fuerte, la sal no produce hidrólisis apreciable, por eso el pH de equivalencia es aproximadamente 7."
+      },
+      {
+        q: "3. En una valoración de ácido acético con NaOH, ¿por qué el pH en equivalencia es mayor que 7?",
+        options: [
+          "Porque sobra ácido acético.",
+          "Porque el ion acetato formado sufre hidrólisis básica.",
+          "Porque el NaOH es débil.",
+          "Porque no se alcanza la neutralización."
+        ],
+        correct: 1,
+        feedbackOk: "Correcto. En equivalencia queda acetato, CH₃COO⁻, que reacciona con el agua formando OH⁻.",
+        feedbackBad: "No. En equivalencia ya no sobra ácido acético. El pH es mayor que 7 porque el acetato formado produce hidrólisis básica."
+      },
+      {
+        q: "4. En una valoración de NH₃ con HCl, el pH en equivalencia será...",
+        options: ["Mayor que 7", "Igual a 7", "Menor que 7", "Siempre 14"],
+        correct: 2,
+        feedbackOk: "Correcto. Se forma NH₄⁺, que puede ceder H⁺ al agua y genera una disolución ácida.",
+        feedbackBad: "Incorrecto. Una base débil valorada con ácido fuerte forma una sal con un catión ácido, como NH₄⁺; por eso el pH de equivalencia es menor que 7."
+      },
+      {
+        q: "5. ¿Qué indicador elegirías preferentemente para una valoración ácido débil - base fuerte?",
+        options: [
+          "Fenolftaleína, porque vira en zona básica.",
+          "Naranja de metilo, porque vira en zona muy ácida.",
+          "Azul de bromotimol, porque siempre sirve para cualquier valoración.",
+          "Ninguno, porque el pH no cambia."
+        ],
+        correct: 0,
+        feedbackOk: "Correcto. En ácido débil + base fuerte el punto de equivalencia está por encima de 7, por eso la fenolftaleína suele ser adecuada.",
+        feedbackBad: "No es la mejor opción. En ácido débil + base fuerte el pH de equivalencia es básico, por lo que conviene un indicador con viraje en zona básica, como la fenolftaleína."
+      },
+      {
+        q: "6. ¿Qué indicador sería más razonable para una valoración base débil - ácido fuerte?",
+        options: [
+          "Fenolftaleína, porque vira entre 8,2 y 10.",
+          "Naranja de metilo, porque vira en zona ácida.",
+          "Azul de bromotimol, porque vira exactamente a pH 14.",
+          "Cualquier indicador sirve siempre igual."
+        ],
+        correct: 1,
+        feedbackOk: "Correcto. En base débil + ácido fuerte, el pH de equivalencia es menor que 7, así que interesa un indicador que vire en zona ácida.",
+        feedbackBad: "Incorrecto. En base débil + ácido fuerte el punto de equivalencia está en zona ácida; por eso el naranja de metilo suele ser más razonable."
+      },
+      {
+        q: "7. ¿Dónde aparece la zona tampón en una valoración de ácido débil con base fuerte?",
+        options: [
+          "Antes del punto de equivalencia, cuando coexisten HA y A⁻.",
+          "Solo después del punto de equivalencia.",
+          "Exactamente cuando el pH vale 14.",
+          "Nunca aparece zona tampón."
+        ],
+        correct: 0,
+        feedbackOk: "Correcto. Antes de equivalencia hay ácido débil sin neutralizar y base conjugada formada, por eso la mezcla amortigua cambios de pH.",
+        feedbackBad: "No. La zona tampón aparece antes del punto de equivalencia, porque coexisten el ácido débil HA y su base conjugada A⁻."
+      },
+      {
+        q: "8. Si en una curva hay un salto muy brusco alrededor de pH 7, probablemente se trata de...",
+        options: [
+          "Ácido débil con base débil.",
+          "Ácido fuerte con base fuerte.",
+          "Base débil con ácido fuerte.",
+          "Una disolución tampón sin valoración."
+        ],
+        correct: 1,
+        feedbackOk: "Correcto. Ácido fuerte + base fuerte da un salto muy acusado y el punto de equivalencia está cerca de pH 7.",
+        feedbackBad: "Incorrecto. El salto brusco alrededor de pH 7 es característico de ácido fuerte + base fuerte."
+      },
+      {
+        q: "9. En ácido débil + base débil, la elección de un indicador suele ser más difícil porque...",
+        options: [
+          "No hay reacción química.",
+          "El salto de pH cerca de equivalencia suele ser pequeño.",
+          "El pH siempre es 7.",
+          "Siempre sobra ácido fuerte."
+        ],
+        correct: 1,
+        feedbackOk: "Correcto. El cambio de pH es menos acusado y resulta más difícil detectar visualmente el punto de equivalencia.",
+        feedbackBad: "No. La reacción sí ocurre, pero el salto de pH suele ser pequeño, así que el indicador puede no marcar bien el punto final."
+      },
+      {
+        q: "10. En una valoración ácido fuerte - base fuerte, ¿qué indicador puede ser adecuado si el salto de pH es amplio?",
+        options: [
+          "Solo fenolftaleína, nunca otros.",
+          "Solo naranja de metilo, nunca otros.",
+          "Azul de bromotimol y, si el salto es amplio, también fenolftaleína o naranja de metilo.",
+          "Ningún indicador, porque el pH no cambia."
+        ],
+        correct: 2,
+        feedbackOk: "Correcto. En ácido fuerte + base fuerte el salto de pH es muy brusco; el azul de bromotimol es especialmente adecuado por virar cerca de pH 7, pero otros pueden funcionar si caen dentro del salto.",
+        feedbackBad: "Incorrecto. En ácido fuerte + base fuerte el salto de pH es amplio. El azul de bromotimol es muy adecuado, pero fenolftaleína o naranja de metilo también pueden funcionar según la curva."
+      },
+      {
+        q: "11. ¿Cuál es el intervalo de viraje aproximado de la fenolftaleína?",
+        options: ["pH 3,1 - 4,4", "pH 6,0 - 7,6", "pH 8,2 - 10,0", "pH 0 - 1"],
+        correct: 2,
+        feedbackOk: "Correcto. La fenolftaleína vira aproximadamente entre pH 8,2 y 10,0.",
+        feedbackBad: "Incorrecto. La fenolftaleína vira en zona básica, aproximadamente entre pH 8,2 y 10,0."
+      },
+      {
+        q: "12. ¿Cuál es el intervalo de viraje aproximado del naranja de metilo?",
+        options: ["pH 3,1 - 4,4", "pH 6,0 - 7,6", "pH 8,2 - 10,0", "pH 12 - 14"],
+        correct: 0,
+        feedbackOk: "Correcto. El naranja de metilo vira aproximadamente entre pH 3,1 y 4,4.",
+        feedbackBad: "Incorrecto. El naranja de metilo vira en zona ácida, aproximadamente entre pH 3,1 y 4,4."
+      },
+      {
+        q: "13. En una sal procedente de ácido débil y base débil, el pH depende principalmente de...",
+        options: [
+          "La comparación entre Ka del ácido y Kb de la base.",
+          "El color del indicador usado.",
+          "Que siempre haya ácido fuerte en exceso.",
+          "Que todas las sales sean neutras."
+        ],
+        correct: 0,
+        feedbackOk: "Correcto. Si Ka > Kb predomina el carácter ácido; si Kb > Ka predomina el básico; si son parecidas, el pH se aproxima a 7.",
+        feedbackBad: "No. En ácido débil + base débil hay que comparar Ka y Kb para saber si predomina el carácter ácido o básico."
+      }
+    ];
+
+    let answered = new Array(quizQuestions.length).fill(false);
+    let score = 0;
+
+    function renderQuiz() {
+      const quiz = document.getElementById("quiz");
+      quiz.innerHTML = "";
+
+      quizQuestions.forEach((item, index) => {
+        const box = document.createElement("div");
+        box.className = "quiz-card";
+
+        const question = document.createElement("p");
+        question.innerHTML = `<strong>${item.q}</strong>`;
+        box.appendChild(question);
+
+        const feedback = document.createElement("p");
+        feedback.id = `quizFeedback${index}`;
+        feedback.style.fontWeight = "bold";
+
+        item.options.forEach((option, optIndex) => {
+          const btn = document.createElement("button");
+          btn.textContent = option;
+          btn.onclick = () => answerQuestion(index, optIndex, btn);
+          box.appendChild(btn);
+        });
+
+        box.appendChild(feedback);
+        quiz.appendChild(box);
+      });
+
+      updateScoreBox();
+    }
+
+    function answerQuestion(index, optIndex, btn) {
+      const item = quizQuestions[index];
+      const feedback = document.getElementById(`quizFeedback${index}`);
+      const correct = optIndex === item.correct;
+
+      if (!answered[index]) {
+        answered[index] = true;
+        if (correct) score++;
+      }
+
+      const buttons = btn.parentElement.querySelectorAll("button");
+      buttons.forEach((b, i) => {
+        b.disabled = true;
+        if (i === item.correct) {
+          b.style.background = "#dcfce7";
+          b.style.borderColor = "#22c55e";
+        } else if (i === optIndex && !correct) {
+          b.style.background = "#fee2e2";
+          b.style.borderColor = "#ef4444";
+        }
+      });
+
+      feedback.textContent = correct ? item.feedbackOk : item.feedbackBad;
+      feedback.style.color = correct ? "#166534" : "#991b1b";
+      updateScoreBox();
+    }
+
+    function updateScoreBox() {
+      const completed = answered.filter(Boolean).length;
+      const scoreBox = document.getElementById("scoreBox");
+      scoreBox.textContent = `Puntuación: ${score}/${quizQuestions.length}. Preguntas respondidas: ${completed}/${quizQuestions.length}.`;
+    }
+
+    function resetQuiz() {
+      answered = new Array(quizQuestions.length).fill(false);
+      score = 0;
+      renderQuiz();
+    }
+
+    updateAll();
+    renderQuiz();
+  </script>
+</p><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article><article id="20260427170023726ELN" class="box"> <header class="box-head no-icon"> <h1 class="box-title">Cómo usar el simulador</h1>
+<button class="box-toggle box-toggle-on" title="Ocultar/Mostrar contenido"> <span>Ocultar/Mostrar contenido</span></button></header><div class="box-content"> <div id="20260427170023724UMA" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json"><div class="exe-text-template"><div class="textIdeviceContent">
+            <div class="exe-text-activity">
+                <div><div style="font-family: Arial, sans-serif; line-height: 1.6; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 16px; padding: 20px;">
+<h2 style="color: #1d4ed8; margin-top: 0;">Cómo usar el simulador de curvas de valoración</h2>
+<p>El simulador permite observar cómo cambia el pH durante una valoración ácido-base.</p>
+<h3 style="color: #2563eb;">Paso 1. Elige el tipo de valoración</h3>
+<p>Puedes comparar cuatro casos:</p>
+<p>Ácido fuerte con base fuerte.</p>
+<p>Ácido débil con base fuerte.</p>
+<p>Base débil con ácido fuerte.</p>
+<p>Ácido débil con base débil.</p>
+<h3 style="color: #2563eb;">Paso 2. Cambia concentraciones y volúmenes</h3>
+<p>Modifica la concentración de la disolución problema, su volumen y la concentración de la disolución valorante.</p>
+<p>Observa cómo cambia el volumen necesario para llegar al punto de equivalencia.</p>
+<h3 style="color: #2563eb;">Paso 3. Observa el punto de equivalencia</h3>
+<p>Recuerda que en el punto de equivalencia se cumple:</p>
+<p style="text-align: center; font-size: 20px;"><strong>moles de H<sup>+</sup> = moles de OH<sup>-</sup></strong></p>
+<h3 style="color: #2563eb;">Paso 4. Interpreta el pH de equivalencia</h3>
+<p>Si el pH es aproximadamente 7, suele tratarse de ácido fuerte con base fuerte.</p>
+<p>Si el pH es mayor que 7, puede deberse a la hidrólisis básica de la sal formada.</p>
+<p>Si el pH es menor que 7, puede deberse a la hidrólisis ácida de la sal formada.</p>
+<h3 style="color: #2563eb;">Paso 5. Fíjate en el indicador recomendado</h3>
+<p>El simulador muestra un indicador orientativo, pero debes justificarlo siempre mirando el intervalo de viraje y la zona de salto brusco de pH.</p>
+</div><p class="clearfix"></p></div>
+            </div></div></div></div>
+</div></article>
+</div></main><div class="nav-buttons"> <a href="../html/apuntes-interactivos.html" title="Anterior" class="nav-button nav-button-left"> <span>Anterior</span></a><a href="../html/problemas-guiados.html" title="Siguiente" class="nav-button nav-button-right"> <span>Siguiente</span></a>
+</div>
+<footer id="siteFooter"><div id="siteFooterContent"> <div id="packageLicense" class="cc cc-by-sa"> <p> <span class="license-label">Licencia: </span><a href="https://creativecommons.org/licenses/by-sa/4.0/" class="license">creative commons: attribution - share alike 4.0</a></p>
+</div>
+</div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Creado con eXeLearning <span>(nueva ventana)</span></span></a></p>
+</body>
+</html>
